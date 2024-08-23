@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/imagenes/favicon.ico">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+
+    <!--Encabezado-->
+    <header>
+        <a href="#">
+            <img src="/imagenes/logo.svg" alt="logo Alura" class="logo" height="" width="80">
+        </a>
+    </header>
+
+    <!--Principal-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptador__textarea" name="" id="" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="/imagenes/aviso.svg" alt="Imagen-aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="encriptador-botones">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="tarjeta-encriptado">
+            <div class="tarjeta-contenedor">
+                <img src="/imagenes/muñeco.svg" alt="muñeco-contenedor" class="img-muñeco">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que desee encriptar o desencriptar</p>
+            </div>
+
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <!--Pie de página-->
+    <footer>
+        <p class="copyright">&copy; copyright 2024 - Encriptador de texto - desarrollado por Santiago Villagra</p>
+        <a href="https://www.linkedin.com/in/santiago-villagra-8a543b1ab/" target="_blank">
+            <img src="/imagenes/linkedin.svg" alt="logo-linkedin" class="logo-linkedin">
+        </a>
+        <a href="https://github.com/santivillagra19" target="_blank">
+            <img src="/imagenes/github.svg" alt="logo-github" class="logo-github">
+        </a>
+    </footer>
+
+</body>
+<script src="/app.js"></script>
+
+</html>
